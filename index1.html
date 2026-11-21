@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+  <section class="pane tasks-pane">
+    <h2>TASK LIST</h2>
+    <p id="empty-message">No tasks yet. Type in the box on the right and press Enter.</p>
+    <ul id="task-list"></ul>
+  </section>
+
+  <section class="pane input-pane">
+    <label for="task-input" class="visually-hidden">New task</label>
+    <textarea id="task-input" placeholder="I need to..." rows="6"></textarea>
+  </section>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
